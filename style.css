@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+
+.contents {
+  position: relative;
+}
+/* header */
+
+.headerwrapper {
+  position: absolute;
+  z-index: 1;
+  background-color:hsla(0, 0%, 10%, 0.75);
+}
+#photo01_pro {
+  position:absolute;
+  z-index: 10;
+  width:25%;
+  height: 100%;
+  max-height: 800px;
+}
+
+#pro_sent {
+  position:absolute;
+  z-index: 1;
+  top: 200px;
+  left: 65%;
+  width: auto;
+  height: auto;
+  max-height: 200px;
+}
+/* header_end */
+
+#sentimg {
+  position: absolute;
+  z-index: 1;
+  transition: all ease-in-out .3s;
+}
+#sentimg:hover {
+  transform: scale(1.3, 1.3);
+}
+
+h1 {
+  transition: all ease 0.4s;
+}
+h1:hover {
+  transform: scale(1.3, 1.3);
+}
+
+#backgroundimg {
+  width: 100%;
+  position: static;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.program_title{
+  position: absolute;
+  top: 40px;
+  right: 1%;
+  z-index: 4;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 15%;
+
+}
+ul {
+  list-style-image: url("../../img/check_02resize.jpg");
+  color: white;
+  background-color: hsla(0, 0%, 10%, 0.75);
+  position: absolute;
+  left: 60%;
+  bottom: 10%;
+  z-index: 1;
+  width: 30%;
+  font-size: x-large;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
